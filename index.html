@@ -145,6 +145,22 @@
             color: #fff;
             border: 2px solid var(--orange);
         }
+        .link-btn-green {
+            background: #25D366;
+            color: #fff;
+            border: 2px solid #25D366;
+        }
+        .link-btn-green .link-btn-icon {
+            background: rgba(255,255,255,0.2);
+        }
+        .link-btn-red {
+            background: #ff0000;
+            color: #fff;
+            border: 2px solid #ff0000;
+        }
+        .link-btn-red .link-btn-icon {
+            background: rgba(255,255,255,0.2);
+        }
         .link-btn-icon {
             flex-shrink: 0;
             width: 32px;
@@ -429,6 +445,62 @@
             }
         }
 
+        /* Desktop optimization */
+        @media (min-width: 768px) {
+            .page {
+                max-width: 800px;
+                padding: 60px 40px 80px;
+            }
+            .avatar-img {
+                max-width: 600px;
+            }
+            h1 {
+                font-size: 36px;
+            }
+            h2 {
+                font-size: 28px;
+            }
+            h3 {
+                font-size: 22px;
+            }
+            .section {
+                padding: 40px 32px;
+            }
+            .link-btn {
+                padding: 18px 24px;
+                font-size: 16px;
+            }
+            .link-btn-title {
+                font-size: 16px;
+            }
+            .link-btn-subtitle {
+                font-size: 13px;
+            }
+            .timer-card {
+                width: 56px;
+                height: 66px;
+                font-size: 34px;
+            }
+            .timer-label {
+                font-size: 12px;
+            }
+            .subtitle {
+                font-size: 14px;
+            }
+            .feature-text {
+                font-size: 15px;
+            }
+            .carousel-img-real {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            .social-link {
+                width: 52px;
+                height: 52px;
+                font-size: 22px;
+            }
+        }
+
         /* Animation */
         @keyframes pulse {
             0%, 100% { transform: scale(1); }
@@ -456,7 +528,7 @@
 
         <!-- ===== LINKS: Contact ===== -->
         <div class="links-list">
-            <a href="https://wa.me/14424315480" target="_blank" class="link-btn link-btn-orange animate-pulse" aria-label="WhatsApp">
+            <a href="https://wa.me/14424315480" target="_blank" class="link-btn link-btn-green animate-pulse" aria-label="WhatsApp">
                 <span class="link-btn-icon">
                     <i class="fab fa-whatsapp" style="font-size:20px;"></i>
                 </span>
@@ -474,7 +546,7 @@
 
         <!-- ===== BUY NOW LINK ===== -->
         <div class="links-list">
-            <a href="https://arua.myshoplaza.com/products/e3-80-90dermatologist-recommended-e3-80-91-vc-spot-correction-whitening-cream-set?st=" target="_blank" class="link-btn link-btn-orange" aria-label="Buy Now">
+            <a href="https://arua.myshoplaza.com/products/e3-80-90dermatologist-recommended-e3-80-91-vc-spot-correction-whitening-cream-set?st=" target="_blank" class="link-btn link-btn-red" aria-label="Buy Now">
                 <span class="link-btn-icon">
                     <i class="fas fa-shopping-cart"></i>
                 </span>
@@ -563,7 +635,7 @@
             <div style="text-align:center;margin-bottom:12px;">
                 <span style="font-size:16px;font-weight:700;">🛒 Order first, then connect with Dr. Emily for free treatment advice.</span>
             </div>
-            <a href="https://arua.myshoplaza.com/products/e3-80-90dermatologist-recommended-e3-80-91-vc-spot-correction-whitening-cream-set?st=" target="_blank" class="link-btn link-btn-orange" aria-label="Buy Now">
+            <a href="https://arua.myshoplaza.com/products/e3-80-90dermatologist-recommended-e3-80-91-vc-spot-correction-whitening-cream-set?st=" target="_blank" class="link-btn link-btn-red" aria-label="Buy Now">
                 <span class="link-btn-icon">
                     <i class="fas fa-shopping-cart"></i>
                 </span>
