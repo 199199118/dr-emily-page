@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROTiSS Brightening Spot Care Set – 4-Piece Dark Spot Correcting & Tone-Evening Treatment</title>
+<meta name="description" content="ROTiSS Brightening Spot Care Cream Set. Dermatology-Researched Formula. 4 Bottles × 15g. Niacinamide + VC-IP + Squalane + Hyaluronic Acid. Fades dark spots, evens skin tone, deep hydration.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#333;line-height:1.7;background:#fff}
+.container{max-width:800px;margin:0 auto;padding:0 16px}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,#f8e8e0 0%,#fdf4f0 50%,#f0e8f5 100%);border-radius:0 0 20px 20px;padding:40px 20px;text-align:center;margin-bottom:32px}
+.hero h1{font-size:30px;font-weight:700;color:#2d2d2d;margin-bottom:10px;letter-spacing:-0.5px}
+.hero .sub{font-size:17px;color:#665;font-weight:500;margin-bottom:6px}
+.hero .badges{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+.hero .badge{background:#fff;padding:6px 16px;border-radius:30px;font-size:12px;color:#888;border:1px solid #eee}
+
+/* Price */
+.price-bar{background:linear-gradient(135deg,#fff5f0 0%,#fff 100%);border:1px solid #f0e0d0;border-radius:14px;padding:24px;margin-bottom:28px;text-align:center}
+.price-bar .price{font-size:38px;font-weight:800;color:#d4380d}
+.price-bar .compare{font-size:18px;color:#999;text-decoration:line-through;margin-left:10px}
+.price-bar .save{display:inline-block;background:#d4380d;color:#fff;padding:4px 12px;border-radius:20px;font-size:13px;font-weight:600;margin-left:8px}
+.price-bar .stock{font-size:13px;color:#888;margin-top:8px}
+
+/* CTA Button */
+.cta-btn{display:block;width:100%;background:linear-gradient(135deg,#d4380d 0%,#ff4d4f 100%);color:#fff;text-align:center;padding:18px 24px;border-radius:30px;font-size:18px;font-weight:700;text-decoration:none;margin:24px 0;box-shadow:0 4px 12px rgba(212,56,13,0.3);transition:transform .2s,box-shadow .2s}
+.cta-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(212,56,13,0.4)}
+.cta-btn:active{transform:translateY(0)}
+
+/* Glance cards */
+.glance{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:28px}
+.glance .card{background:#fafafa;border-radius:12px;padding:20px 16px;text-align:center}
+.glance .icon{font-size:28px;margin-bottom:6px}
+.glance .title{font-size:14px;font-weight:600;color:#333}
+.glance .desc{font-size:11px;color:#999;margin-top:2px}
+
+/* Section headings */
+h2{font-size:22px;font-weight:700;color:#222;border-left:4px solid #c9a87c;padding-left:14px;margin:32px 0 14px 0}
+
+/* Benefits list */
+.benefits{background:#fefefe;border:1px solid #f0ece8;border-radius:14px;padding:20px 24px;margin-bottom:24px}
+.benefits table{width:100%;border-collapse:collapse}
+.benefits td{padding:10px 0;border-bottom:1px solid #f5f0eb;font-size:15px}
+.benefits tr:last-child td{border-bottom:none}
+
+/* Ingredients */
+.ing-section{border-radius:14px;padding:22px;margin-bottom:18px}
+.ing-bright{background:linear-gradient(180deg,#fffbf7 0%,#fff 100%)}
+.ing-hydra{background:linear-gradient(180deg,#f7fbff 0%,#fff 100%)}
+.ing-soothe{background:linear-gradient(180deg,#f5fff8 0%,#fff 100%)}
+.ing-section h3{font-size:16px;font-weight:700;color:#333;margin-bottom:12px}
+.ing-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.ing-grid.solo{grid-template-columns:repeat(3,1fr)}
+.ing-item{background:#fff;border-radius:8px;padding:12px 14px;box-shadow:0 1px 3px rgba(0,0,0,0.04)}
+.ing-item strong{color:#444;font-size:13px;display:block}
+.ing-item p{font-size:12px;color:#777;margin-top:4px}
+.ing-item.center{text-align:center}
+.ing-item.center .emoji{font-size:20px}
+
+/* How to use */
+.howto{background:#f9f9f9;border-radius:14px;padding:22px;margin-bottom:24px}
+.howto ol{margin:0;padding-left:20px}
+.howto li{font-size:14px;color:#444;padding:8px 0;border-bottom:1px solid #eee}
+.howto li:last-child{border-bottom:none}
+.howto .tip{font-size:13px;color:#999;margin-top:14px;font-style:italic}
+
+/* Clean beauty */
+.clean-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:24px}
+.clean-item{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:14px;text-align:center}
+.clean-item .emoji{font-size:22px}
+.clean-item .label{font-size:12px;font-weight:600;color:#166534;margin-top:4px}
+
+/* Timeline */
+.timeline{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);border-radius:14px;padding:28px;color:#fff;margin-bottom:24px}
+.timeline-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;text-align:center}
+.timeline-week{font-size:26px;font-weight:700;color:#ffd700}
+.timeline-desc{font-size:12px;margin-top:6px;opacity:0.85}
+.timeline-note{font-size:11px;opacity:0.6;text-align:center;margin-top:16px}
+
+/* INCI */
+.inci{background:#fafaf8;border-radius:10px;padding:18px 22px;margin-bottom:24px;font-size:13px;color:#666;line-height:1.9}
+
+/* Spec table */
+.spec-table{width:100%;border-collapse:collapse;margin-bottom:32px;font-size:14px}
+.spec-table td{padding:10px 14px;border-bottom:1px solid #eee}
+.spec-table td:first-child{font-weight:600;width:140px}
+.spec-table tr:nth-child(even){background:#f8f8f8}
+
+/* Product images */
+.product-img{width:100%;display:block;border-radius:8px;margin-bottom:6px}
+
+/* Sticky CTA on mobile */
+.sticky-cta{position:fixed;bottom:0;left:0;right:0;background:#fff;padding:12px 16px;box-shadow:0 -2px 10px rgba(0,0,0,0.1);z-index:1000;display:none}
+.sticky-cta a{display:block;background:linear-gradient(135deg,#d4380d 0%,#ff4d4f 100%);color:#fff;text-align:center;padding:14px;border-radius:25px;font-size:16px;font-weight:700;text-decoration:none}
+@media(max-width:600px){
+  .hero h1{font-size:24px}
+  .price-bar .price{font-size:32px}
+  .glance{grid-template-columns:repeat(2,1fr)}
+  .ing-grid{grid-template-columns:1fr}
+  .ing-grid.solo{grid-template-columns:repeat(3,1fr)}
+  .clean-grid{grid-template-columns:repeat(3,1fr)}
+  .sticky-cta{display:block}
+  .cta-btn{margin-bottom:70px}
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<!-- HERO -->
+<div class="hero">
+  <h1>ROTiSS Brightening Spot Care Set</h1>
+  <p class="sub">4-Piece Dark Spot Correcting & Tone-Evening Treatment</p>
+  <p class="sub">Dermatology-Researched Formula · 4 Bottles × 15g</p>
+  <div class="badges">
+    <span class="badge">🧪 Clinical-Grade Ingredients</span>
+    <span class="badge">🌿 Fragrance-Free</span>
+    <span class="badge">✅ Sensitive Skin Safe</span>
+  </div>
+</div>
+
+<!-- PRICE -->
+<div class="price-bar">
+  <span class="price">$99.00</span>
+  <span class="compare">$199.00</span>
+  <span class="save">SAVE 50%</span>
+  <div class="stock">✅ In Stock · Free Shipping · 30-Day Money Back Guarantee</div>
+</div>
+
+<!-- CTA -->
+<a href="https://www.luxuryshop.biz/s/qyfhceDKMQ33dF" class="cta-btn" target="_blank" rel="noopener">🛒 ORDER NOW – Secure Checkout</a>
+
+<!-- GLANCE -->
+<div class="glance">
+  <div class="card"><div class="icon">⚡</div><div class="title">Fades Dark Spots</div><div class="desc">Visible results in 2–4 weeks</div></div>
+  <div class="card"><div class="icon">✨</div><div class="title">Evens Skin Tone</div><div class="desc">Reduces dullness & yellow tone</div></div>
+  <div class="card"><div class="icon">💧</div><div class="title">Deep Hydration</div><div class="desc">Squalane + HA moisture lock</div></div>
+  <div class="card"><div class="icon">🛡️</div><div class="title">Barrier Support</div><div class="desc">Vitamin E + Shea repair</div></div>
+</div>
+
+<!-- MAIN PRODUCT IMAGE -->
+<img src="https://img.staticdj.com/b4abc383d1fa38159ef367b15e792696.jpeg" alt="ROTiSS Brightening Spot Care Cream" class="product-img" loading="eager">
+
+<!-- WHY -->
+<h2>Why Your Skin Needs This</h2>
+<p style="font-size:15px;color:#555;margin-bottom:16px;">Dullness, dark spots, and uneven tone don't happen overnight — they're triggered by <strong>glycation, oxidation, and time</strong>. Late nights, sun exposure, and stress accelerate melanin production, leading to visible pigmentation, a tired yellowish cast, and rough texture.</p>
+<p style="font-size:15px;color:#555;margin-bottom:20px;">ROTiSS Brightening Spot Care targets these concerns at multiple levels with a <strong>3-step precision tone care system</strong>: surface brightening, in-skin inhibition of new discoloration, and source-level pigment control — all while keeping your skin deeply hydrated and protected.</p>
+
+<!-- BENEFITS -->
+<h2>Key Benefits</h2>
+<div class="benefits">
+  <table>
+    <tr><td>✅ Reduces appearance of dark spots, sun spots & hyperpigmentation</td></tr>
+    <tr><td>✅ Evens out dull, uneven or yellow-toned complexion</td></tr>
+    <tr><td>✅ Deep moisture lock with breathable protective barrier</td></tr>
+    <tr><td>✅ Anti-glycation & antioxidant defense against premature aging</td></tr>
+    <tr><td>✅ Smooths rough texture & reduces fine line visibility</td></tr>
+    <tr><td>✅ 100% free from hormones, fluorescent agents, heavy metals & fragrance</td></tr>
+  </table>
+</div>
+
+<!-- PRODUCT IMAGE 2 -->
+<img src="https://img.staticdj.com/fa2a7d33423b641ffb6f96886484fa2d.jpeg" alt="Skin Concerns" class="product-img" loading="lazy">
+
+<!-- INGREDIENTS -->
+<h2>Star Ingredients</h2>
+
+<div class="ing-section ing-bright">
+  <h3>🔬 BRIGHTENING COMPLEX (4 Actives)</h3>
+  <div class="ing-grid">
+    <div class="ing-item"><strong>Niacinamide (Vitamin B3)</strong><p>Blocks melanin transfer to surface cells — clinically proven to visibly fade existing spots.</p></div>
+    <div class="ing-item"><strong>VC-IP (Ascorbyl Tetraisopalmitate)</strong><p>Fat-soluble Vitamin C derivative — penetrates deep to reduce formed pigmentation & boost radiance.</p></div>
+    <div class="ing-item"><strong>Bletilla Striata Extract</strong><p>Traditional Chinese brightening botanical — gentle yet effective for long-term clarity.</p></div>
+    <div class="ing-item"><strong>Yeast/Rice Ferment Filtrate</strong><p>Fermented brightener — enhances skin's natural luminosity & texture refinement.</p></div>
+  </div>
+</div>
+
+<div class="ing-section ing-hydra">
+  <h3>💧 HYDRATION & REPAIR MATRIX (5 Actives)</h3>
+  <div class="ing-grid">
+    <div class="ing-item"><strong>Squalane 🇩🇪 German-Sourced</strong><p>Plant-derived biomimetic lipid — forms breathable film to prevent moisture loss.</p></div>
+    <div class="ing-item"><strong>Sodium Hyaluronate 🇨🇭 Swiss-Sourced</strong><p>Multi-depth hyaluronic acid — locks in hydration across skin layers.</p></div>
+    <div class="ing-item"><strong>Panthenol (Vitamin B5) 🇨🇭 Swiss-Sourced</strong><p>Strengthens stratum corneum water retention — relieves dryness fast.</p></div>
+    <div class="ing-item"><strong>Shea Butter (Butyrospermum Parkii)</strong><p>Rich emollient — delivers deep nourishment with silky-smooth glide-on feel.</p></div>
+    <div class="ing-item"><strong>Tocopheryl Acetate (Vit E) 🇩🇪 German-Sourced</strong><p>Antioxidant shield — supports skin barrier repair & eases dryness.</p></div>
+  </div>
+</div>
+
+<!-- PRODUCT IMAGE 3 -->
+<img src="https://img.staticdj.com/cd6749c6c90601f6876efb4c93e246d9.jpeg" alt="Hydration Technology" class="product-img" loading="lazy">
+
+<div class="ing-section ing-soothe">
+  <h3>🛡️ SOOTHING BOTANICALS</h3>
+  <div class="ing-grid solo">
+    <div class="ing-item center"><div class="emoji">🌿</div><strong style="margin-top:4px">Centella Asiatica</strong><p>Calming repair</p></div>
+    <div class="ing-item center"><div class="emoji">❄️</div><strong style="margin-top:4px">Edelweiss Extract</strong><p>Alpine resilience</p></div>
+    <div class="ing-item center"><div class="emoji">🌸</div><strong style="margin-top:4px">Camellia Seed Oil</strong><p>Antioxidant rich</p></div>
+  </div>
+</div>
+
+<!-- PRODUCT IMAGE 4 -->
+<img src="https://img.staticdj.com/d375aaacead95652309e5b3df968a5f4.jpeg" alt="3-Step Brightening Technology" class="product-img" loading="lazy">
+
+<!-- CTA -->
+<a href="https://www.luxuryshop.biz/s/qyfhceDKMQ33dF" class="cta-btn" target="_blank" rel="noopener">🛒 ORDER NOW – Secure Checkout</a>
+
+<!-- HOW TO USE -->
+<h2>How to Use</h2>
+<div class="howto">
+  <ol>
+    <li><strong>Cleanse</strong> — Start with your usual cleanser and pat dry.</li>
+    <li><strong>Tone</strong> — Apply your favorite toner and let it absorb fully.</li>
+    <li><strong>Apply</strong> — Dispense an appropriate amount onto fingertips. Spread evenly over face and neck using gentle upward motions.</li>
+    <li><strong>Massage</strong> — Gently pat and massage until fully absorbed. Can be used AM & PM.</li>
+  </ol>
+  <p class="tip">💡 Pro Tip: Follow with SPF during daytime use for best spot-fading results.</p>
+</div>
+
+<!-- PRODUCT IMAGE 5 -->
+<img src="https://img.staticdj.com/42831135fa1a23595dc90a51744283a6.jpeg" alt="How to Use" class="product-img" loading="lazy">
+
+<!-- CLEAN BEAUTY -->
+<h2>Clean Beauty Promise</h2>
+<div class="clean-grid">
+  <div class="clean-item"><div class="emoji">🚫</div><div class="label">No Hormones</div></div>
+  <div class="clean-item"><div class="emoji">🚫</div><div class="label">No Fluorescents</div></div>
+  <div class="clean-item"><div class="emoji">🚫</div><div class="label">No Heavy Metals</div></div>
+  <div class="clean-item"><div class="emoji">🚫</div><div class="label">No Risky Ingredients</div></div>
+  <div class="clean-item"><div class="emoji">🚫</div><div class="label">Fragrance-Free</div></div>
+  <div class="clean-item"><div class="emoji">✅</div><div class="label">Sensitive Skin Safe</div></div>
+</div>
+
+<!-- PRODUCT IMAGE 6 -->
+<img src="https://img.staticdj.com/fe96fd58e38c44864053b38aa2abe445.jpeg" alt="Safety Certification" class="product-img" loading="lazy">
+
+<!-- TIMELINE -->
+<h2>What to Expect</h2>
+<div class="timeline">
+  <div class="timeline-grid">
+    <div><div class="timeline-week">Wk 1-2</div><div class="timeline-desc">Skin feels softer & more hydrated. Initial glow appears.</div></div>
+    <div><div class="timeline-week">Wk 2-4</div><div class="timeline-desc">Dark spots begin to fade. Overall brightness improves noticeably.</div></div>
+    <div><div class="timeline-week">Wk 4+</div><div class="timeline-desc">Tone looks even & naturally radiant. Dullness significantly reduced.</div></div>
+  </div>
+  <p class="timeline-note">*Based on internal clinical testing. Individual results may vary.</p>
+</div>
+
+<!-- PRODUCT IMAGE 7 -->
+<img src="https://img.staticdj.com/94de2e9bfa6c264a87bec6908e7a875e.jpeg" alt="4 Week Clinical Test Results" class="product-img" loading="lazy">
+
+<!-- PRODUCT IMAGE 8 -->
+<img src="https://img.staticdj.com/1db1d44ef9948c5c974fbe53991fe384.jpeg" alt="Visible Brightening Effect Data" class="product-img" loading="lazy">
+
+<!-- INCI -->
+<h2>Full Ingredient List (INCI)</h2>
+<div class="inci">
+Water, Cetearyl Alcohol, Butylene Glycol, Niacinamide, Caprylic/Capric Triglyceride, Dimethicone, Betaine, Isononyl Isononanoate, 1,2-Hexanediol, Hydroxyacetophenone, Cetearyl Glucoside, Glycerin, Camellia Japonica Seed Oil, Carbomer, 1,3-Propanediol, Tocopheryl Acetate, Butyrospermum Parkii (Shea) Butter, Saccharomyces/Rice Ferment Filtrate, Arginine, Bletilla Striata Extract, Maltodextrin, Glycine Soja (Soybean) Extract, Ascorbyl Tetraisopalmitate, Panthenol, Sodium Hyaluronate, Squalane, Ammonium Acryloyldimethyltaurate/VP Copolymer, Centella Asiatica Extract, Madecassoside, Biosaccharide Gum-1, Gentiana Scabra Root Extract, Asiaticoside, Leontopodium Alpinum Flower/Leaf Extract, Ethylhexylglycerin, Citric Acid
+</div>
+
+<!-- PRODUCT IMAGE 9 -->
+<img src="https://img.staticdj.com/00b3f7f1728c4a51a8c1a4b50b21c677.jpeg" alt="Complete Ingredients List" class="product-img" loading="lazy">
+
+<!-- SPEC TABLE -->
+<h2>Product Details</h2>
+<table class="spec-table">
+  <tr><td>Brand</td><td>ROTiSS</td></tr>
+  <tr><td>Net Content</td><td>15g × 4 bottles (60g total)</td></tr>
+  <tr><td>Skin Type</td><td>All skin types, especially sensitive & pigmentation-prone skin</td></tr>
+  <tr><td>Origin of Key Actives</td><td>Germany (Vit E, Squalane) & Switzerland (Panthenol, Hyaluronic Acid)</td></tr>
+  <tr><td>Storage</td><td>Room temperature, away from direct sunlight. Keep out of reach of children.</td></tr>
+  <tr><td>Package Includes</td><td>4 × ROTiSS Brightening Spot Care Cream bottles (15g each)</td></tr>
+</table>
+
+<!-- PRODUCT IMAGE 10 -->
+<img src="https://img.staticdj.com/c52540157b1cfab227faefb5425ffebb.jpeg" alt="Import Documentation" class="product-img" loading="lazy">
+
+<!-- PRODUCT IMAGE 11 -->
+<img src="https://img.staticdj.com/3b3aba581d398c36c7f7f568ad3a9854.jpeg" alt="Multi-Ingredient Complexion Support" class="product-img" loading="lazy">
+
+<!-- FINAL CTA -->
+<a href="https://www.luxuryshop.biz/s/qyfhceDKMQ33dF" class="cta-btn" target="_blank" rel="noopener">🛒 ORDER NOW – $99 (Was $199) – Secure Checkout</a>
+
+</div><!-- /container -->
+
+<!-- STICKY MOBILE CTA -->
+<div class="sticky-cta">
+  <a href="https://www.luxuryshop.biz/s/qyfhceDKMQ33dF" target="_blank" rel="noopener">🛒 ORDER NOW – $99</a>
+</div>
+
+</body>
+</html>
